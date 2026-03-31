@@ -7,5 +7,5 @@ class CareTaker { // CareTaker
         this.save = gameSave
     }
 
-    fun restore() = save ?: GameSave()
+    fun restore() = this.save ?: GameSave()
 }
